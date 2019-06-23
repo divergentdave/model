@@ -1,4 +1,4 @@
-use model::{linearizable, model};
+use model::{model, linearizable, prop_oneof};
 
 #[test]
 fn test_model() {
