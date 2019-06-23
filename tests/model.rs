@@ -1,4 +1,5 @@
 use model::{linearizable, model};
+use proptest::*;
 
 #[test]
 fn test_model() {
