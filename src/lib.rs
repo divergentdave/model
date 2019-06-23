@@ -95,7 +95,7 @@ extern crate permutohedron;
 
 pub extern crate proptest as pt;
 #[doc(hidden)]
-pub use pt::*;
+pub use pt::prelude::*;
 
 pub struct Shared<T>(*mut T);
 

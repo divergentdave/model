@@ -10,5 +10,5 @@ documentation = "https://docs.rs/model/"
 edition = "2018"
 
 [dependencies]
-proptest = "0.8"
+proptest = "0.9"
 permutohedron = "0.2"
